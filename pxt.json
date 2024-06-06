@@ -1,0 +1,28 @@
+{
+    "name": "Creative Mode",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "builder": "*",
+        "makecode-minecraft-music": "github:microsoft/makecode-minecraft-music#v0.0.7",
+        "makecode-minecraft-mob-events": "github:microsoft/makecode-minecraft-mob-events#4940c1da87b203c63780ef869e0186cb906dbbeb",
+        "makecode-minecraft-pixel-art": "github:microsoft/makecode-minecraft-pixel-art#v0.0.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.7.28",
+        "targetId": "minecraft"
+    },
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "blocksprj"
+}

@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="q=w5zv:tD#RTJ%~husOz">myEntitySelector</variable></variables><block type="device_forever" id="Yj6umq1jDCWY`5|eND0|" x="916" y="-327"><statement name="HANDLER"><block type="setDifficulty" id="k~jeXhN|M}LRGvzJn~xh"><field name="difficulty">GameDifficulty.Easy</field><next><block type="minecraftGamemode" id="Lef.iSs4[Qe7]I-zo.2j"><field name="mode">GameMode.Creative</field><value name="player"><shadow type="minecraftTarget" id=",%Y4hnx%[iA~;Mn$Ap8o"><field name="kind">TargetSelectorKind.AllPlayers</field></shadow></value></block></next></block></statement></block><block type="pxt-on-start" id="i!L=6^;1f^vQ9~i:2v$p" x="419" y="-244"><statement name="HANDLER"><block type="minecraftAgentTeleport" id="Y2}r2g|On*kUOeHxK%oE"><next><block type="minecraftSay" id="_%C5G=1Y0h4?|G+:QIqn"><value name="message"><shadow type="text" id="I+NA=8ho[M-OXfRADoB/"><field name="TEXT">:)</field></shadow></value><next><block type="minecraftAgentMove" id="?:V/0zCjm9H.rh;{F3KN"><value name="direction"><shadow type="minecraftAgentSixDirection" id="ug#R|%{4|ha}zQVex5C-"><field name="direction">SixDirection.Forward</field></shadow></value><value name="blocks"><shadow type="math_number" id="fv-b4_Gp1H.2WOsC:c#="><field name="NUM">10</field></shadow></value></block></next></block></next></block></statement></block><block type="pxt-on-start" id="K7rs(VdluQ52{M{#^euN" disabled="true" x="0" y="0"><statement name="HANDLER"><block type="minecraft_pixel_art_draw_image" id="m$C9h]p,fyQ.179i5Pi]" disabled="true"><field name="direction">CompassDirection.West</field><value name="image"><shadow type="minecraft_pixel_art_sprite_image" id="F~ZN[R^7IBkwNT$%dLa9" disabled="true"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . 5 . . . . . . . . 
+. . . . . . . 5 5 . . . . . . . 
+. . . . . . 5 f 5 5 . . . . . . 
+. . . . . 5 5 f 5 5 5 . . . . . 
+. . . . 5 5 5 f 5 5 5 5 . . . . 
+. . . 5 5 5 5 f 5 5 5 5 5 . . . 
+. . 5 5 5 5 5 5 5 5 5 5 5 5 . . 
+. 5 5 5 5 5 5 f 5 5 5 5 5 5 5 . 
+. 5 5 5 5 5 5 5 5 5 5 5 5 5 5 . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="position"><shadow type="minecraftCreatePosition" disabled="true"><value name="x"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow></value><value name="y"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow></value><value name="z"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow></value></shadow><block type="minecraftAgentGetPosition" id="kTtJ~v}z4e=YrAO9H`$]" disabled="true"></block></value><next><block type="minecraftSay" id="$*0MAz7h}9JHsZeG5%rm" disabled="true"><value name="message"><shadow type="text" id="5?6i~xei.ZPosRJ-8]iw" disabled="true"><field name="TEXT">WARNING DONT LET YOUR TEACHER MOM DAD KNOW THIS "this mod allows you to have fun in school" Now Have Fun Btw You Cant Go In A Different Gamemode Will Be Fixed Soon This Will Also Speed Up The Game </field></shadow></value></block></next></block></statement></block><block type="device_forever" id="%UR_9gvadBJTh|u[_ar%" x="456" y="214"><statement name="HANDLER"><block type="mob_events_setLimit" id="@-nE!:b;UgVuAO9/1)$b"><value name="selector"><shadow type="variables_get" id="5X+)iD2bnxDewET6LTjK"><field name="VAR" id="q=w5zv:tD#RTJ%~husOz">myEntitySelector</field></shadow></value><value name="limit"><shadow type="math_number" id="ae2{?K5+!^*,0yF-`Lup"><field name="NUM">30</field></shadow></value></block></statement></block><block type="pxt-on-start" id="4:zA=[|osGRP^;tXSjiy" disabled="true" x="967" y="330"><statement name="HANDLER"><block type="minecraftAgentTeleport" id="-x1zTuU,TGo?p$,kYHi6" disabled="true"><next><block type="minecraftSay" id="RCep)~SY@fHfPUEtyMgf" disabled="true"><value name="message"><shadow type="text" id="b4wo@_gdWhPvL.#s0!yq" disabled="true"><field name="TEXT">:)</field></shadow></value><next><block type="minecraft_pixel_art_draw_image" id="8[2qkaO/;/8Rj4Zk`@9_" disabled="true"><field name="direction">CompassDirection.West</field><value name="image"><shadow type="minecraft_pixel_art_sprite_image" id="N[9}0vhfU%J@NKUDUF5M" disabled="true"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . f f f f f . . . f . . . . . 
+. . f . . . . . . . f . . . . . 
+. . f . . . . . . . f . . . . . 
+. . f . . . . . . . f . . . . . 
+. . f f f f f . . . f . . . . . 
+. . f . . . . . . . f . . . . . 
+. . f . . . . . . . . . . . . . 
+. . f f f f f . . . f . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="position"><shadow type="minecraftCreatePosition" disabled="true"><value name="x"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow></value><value name="y"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow></value><value name="z"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow></value></shadow><block type="minecraftAgentGetPosition" id="}0^5)J;oamEHgzNMl+|@" disabled="true"></block></value></block></next></block></next></block></statement></block></xml>
